@@ -8,6 +8,6 @@ public class Web {
 
     @RequestMapping("/")
     public String test() {
-        return "hello world";
+        return "hello world!!";
     }
 }

@@ -50,4 +50,4 @@ jobs:
         user: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_KEY}}
         command: |
-          docker pull jzdphz/imagename:latest
+          docker pull imagename:latest

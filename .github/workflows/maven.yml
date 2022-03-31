@@ -46,6 +46,6 @@ jobs:
     - name: SSH
       uses: appleboy/ssh-action@master
       with:
-        host: 182.254.192.61
-        username: root
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USER }}
         password: 20180306_Meng

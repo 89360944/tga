@@ -49,5 +49,3 @@ jobs:
         host: ${{ secrets.SERVER_HOST }}
         user: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_KEY}}
-        command: |
-          docker pull imagename:latest

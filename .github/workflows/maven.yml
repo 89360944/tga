@@ -44,7 +44,7 @@ jobs:
         tags: ${{ secrets.DOCKER_HUB_USERNAME }}/imagename:latest
     # push后，用ssh连接服务器执行脚本
     - name: SSH
-      uses: fifsky/ssh-action@master
+      uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SERVER_HOST }}
         user: ${{ secrets.SERVER_USER }}

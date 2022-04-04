@@ -8,6 +8,7 @@ public class Web {
 
     @RequestMapping("/")
     public String test() {
+        System.out.println("print hello");
         return "hello world lovely Menmen";
     }
 }
